@@ -1,5 +1,10 @@
 var img;
 
+function sampleimg1(text) {
+  img = document.getElementById("image_file");
+  img.src = "img/henntaigana/" + text + "-gazou.jpeg";
+}
+
 function sampleimg1() {
   img = document.getElementById("image_file");
   img.src = "img/henntaigana/a-gazou.jpeg";
